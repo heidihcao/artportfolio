@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(109, 129, 121);
+    background-color: rgb(89, 182, 143);
 }
 
 header{
@@ -11,6 +11,7 @@ header{
 li{
     display: inline;
     border: rgb(245, 168, 168) 0.5px;
+    font:#FF44AA;
     padding: 20px;
     margin: 20px;
 }
@@ -20,11 +21,12 @@ section{
     margin: 10px;
     text-align: left;
     padding: 1px;
-    font: italic;
+    font: italic #FF44AA;
 }
 
 img{
     width: 500px;
+    float:inline-start;
 }
 
 
