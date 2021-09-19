@@ -1,32 +1,36 @@
 body{
-    background-color: rgb(89, 182, 143);
+    background-color: rgb(118, 187, 199);
 }
 
-header{
-    background-color: azure;
-    color:rgb(212, 211, 112);
+h1{
+    color:rgb(105, 104, 104);
     text-align: center;
+    margin:auto;
 }
 
 li{
     display: inline;
     border: rgb(245, 168, 168) 0.5px;
-    font:#FF44AA;
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    margin: 30px;
+    color:black;
 }
 
 section{
     border:solid whitesmoke 1px;
     margin: 10px;
-    text-align: left;
+    text-align: center;
     padding: 1px;
-    font: italic #FF44AA;
+    color:grey;
+    background-color: thistle;
 }
 
 img{
-    width: 500px;
+    width: 550px;
     float:inline-start;
 }
 
-
+footer{
+    text-align: center;
+    color: white;
+}
