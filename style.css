@@ -10,10 +10,11 @@ h1{
 
 li{
     display: inline;
+    text-align: center;
     border: rgb(245, 168, 168) 0.5px;
-    padding: 40px;
-    margin: 30px;
-    color:black;
+    padding: 10px;
+    margin: 10px;
+    color:rgb(105, 104, 104);
 }
 
 section{

@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 
 <html>
-    <header>
-        <title>Art Porfolio</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
+    <head>
         <script src="app1.js"></script>
-    </header>
+    </head>
 
     <body>
         <main>
             <section>
-                <p>
-                    <h1>
-                    Art Porfolio
-                    </h1>
-                </p>
+            <p>
+                <h1>Art Porfolio</h1>
+                <h2><script>getusername()</script></h2>
+            </p>
+            <link rel="stylesheet" href="style.css" type="text/css">
             </section>
-
             <section>
                 <ul>
-                    <h1>
+                    <h3>
                     <li><a href="https://www.heidicao.com/home/design">Design</a></li>
                     <li><a href="https://www.heidicao.com/home/color">Color</a></li>
-                    </h1>
+                    <li><script>getgallery()</script></li>
+                    </h3>
                 </ul>
              </section>
 
@@ -33,15 +31,15 @@
                     </h2>
                 </p>
                 <img src="https://www.netapp.com/media/side-x-side_hero-private-cloud_940x784_tcm19-8806.jpg?v=81281" alt="Some alternative text" />
-                <p><script src="app3.js"></script></p>
+                <script>picOnPage()</script>
             </section>
-
         </main>
         <footer>
             <p>
-            Thank you for visiting this page
+            Thank you for visiting this page <br>
+            <script>randomnum()</script><br>
+            <script>Subscribe()</script>
             </p>
-            <p><script src="app2.js"></script></p>
         </footer>
     </body>
     
